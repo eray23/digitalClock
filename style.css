@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    background-color: rgb(192, 192, 192);
+    font-family: 'Press Start 2P', cursive;
+}
+#clock{
+    background-color: rgb(9, 173, 179);
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    border-radius: 15px;
+}
+#hour, #minute, #second{
+    float: left;
+    margin: 20px;
+    font-size: xx-large;
+    display: block;
+    margin-top: 65px;
+    margin-left: 35px;
+    
+}
+#day{
+    font-size: xx-large;
+    display: block;
+    margin-left: 180px;
+}
+#name{
+    text-align: center;
+    
+}
+#descr{
+    text-align: center;
+    margin-top: 50px;
+}
